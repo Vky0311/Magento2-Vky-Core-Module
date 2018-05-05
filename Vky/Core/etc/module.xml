@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Vky
+ * @package    Vky_Core
+ * @author     Vicky <viky.031290@gmail.com>
+ * @copyright  Copyright © VKY All right reserved
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Vky_Core" setup_version="0.0.1"/>
+</config>

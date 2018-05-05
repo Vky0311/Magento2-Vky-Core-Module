@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Vky
+ * @package    Vky_Core
+ * @author     Vicky <viky.031290@gmail.com>
+ * @copyright  Copyright © VKY All right reserved
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vky_Core::vky"
+            title="Vky"
+            module="Vky_Core"
+            sortOrder="55"
+            resource="Vky_Core::vky"
+        />
+        <add id="Vky_Core::general"
+            title="General"
+            module="Vky_Core"
+            sortOrder="5"
+            parent="Vky_Core::vky"
+            resource="Vky_Core::general"
+        />
+
+        <add id="Vky_Core::extensions"
+            title="Extensions"
+            module="Vky_Core"
+            sortOrder="5"
+            parent="Vky_Core::vky"
+            resource="Vky_Core::extensions"
+        />
+
+        <add id="Vky_Core::services"
+            title="Services"
+            module="Vky_Core"
+            sortOrder="0"
+            parent="Vky_Core::vky"
+            resource="Vky_Core::services"
+        />
+        <!-- <add id="Vky_Core::installer_index"
+            title="Module Manager"
+            module="Vky_Core"
+            sortOrder="10"
+            parent="Vky_Core::services"
+            action="vky/installer/index"
+            resource="Vky_Core::installer_index"
+        /> -->
+    </menu>
+</config>
